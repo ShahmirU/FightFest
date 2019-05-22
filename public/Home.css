@@ -1,0 +1,282 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #1C2E37
+}
+:root {
+	--web-view-ids: Home;
+}
+#Home * {
+	margin: 0;
+	padding: 0;
+}
+#Home {
+	position: relative;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	opacity: 1;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_2 {
+	opacity: 1;
+	fill: rgba(34,56,67,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Image_1 {
+	opacity: 0.3;
+	fill: url(#Image_1_A0_Rectangle_3_pattern);
+}
+.Image_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+
+#Welcome_to_FightFest__The_worl {
+	opacity: 1;
+	position: absolute;
+	left: 82px;
+	top: 237px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 1758px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(239,241,243,1);
+}
+#Step_1__Select_a_Division {
+	opacity: 1;
+	position: absolute;
+	left: 706px;
+	top: 384px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 509px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(239,241,243,1);
+}
+#Step_2__Choose_the_fighters {
+	opacity: 1;
+	position: absolute;
+	left: 674px;
+	top: 540px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 574px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(239,241,243,1);
+}
+#Step_3__Optional___Select_Loca {
+	opacity: 1;
+	position: absolute;
+	left: 601px;
+	top: 696px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 719px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(239,241,243,1);
+}
+#ufc {
+	opacity: 0.5;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161)) blur(8px);
+	fill: #020405;
+	position: fixed;
+}
+.ufc {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: hidden;
+	width: 1938px;
+	height: 254.601px;
+}
+#Line_1 {
+	opacity: 1;
+	fill: transparent;
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	top: 359.5px;
+	left: 86.5px;
+	width: 1748px;
+	height: 1px;
+}
+#Developed_by_Shahmir_Usman {
+	opacity: 1;
+	position: absolute;
+	left: 1600px;
+	top: 1044px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 250px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+#fightfest {
+	opacity: 1;
+	fill: url(#fightfest_A0_Rectangle_6_pattern);
+}
+.fightfest {
+	position: absolute;
+	overflow: visible;
+	width: 612px;
+	height: 131px;
+	left: 1263px;
+	top: 50px;
+}
+#division {
+	width: 100%;
+	height: 60%;
+	text-align: center;
+	background: #1C2E37;
+	border: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(29,241,243,1);
+	text-align-last: center;
+}
+#location {
+	width: 70%;
+	height: 60%;
+	text-align: center;
+	background: #1C2E37;
+	border: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(29,241,243,1);
+	text-align-last: center;
+}
+#fighter1{
+	width: 45%;
+	height: 60%;
+	text-align: left;
+	background: #1C2E37;
+	border: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(29,241,243,1);
+	text-align-last: center;
+}
+#fighter2{
+	width: 45%;
+	height: 60%;
+	background: #1C2E37;
+	border: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(29,241,243,1);
+	text-align-last: center;
+}
+#button{
+	opacity: 1;
+	position: absolute;
+	left: 795px;
+	top: 900px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+}
+#predictbutton{
+	border: 1px solid #50e3f7;
+	background: #1C2E37;
+	padding: 10px 60px;
+	font-size: 20px;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	margin: 10px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+#predictbutton:hover{
+	color: rgb(0, 0, 0);
+	background: rgba(29,241,243,1);
+}

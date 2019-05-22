@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--web-view-ids: Prediction;
+}
+#Prediction * {
+	margin: 0;
+	padding: 0;
+}
+#Prediction {
+	position: absolute;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	opacity: 1;
+	--web-view-name: Prediction;
+	--web-view-id: Prediction;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Rectangle_2 {
+	opacity: 1;
+	fill: rgba(34,56,67,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Image_1 {
+	opacity: 0.3;
+	fill: url(#Image_1_A1_Rectangle_9_pattern);
+}
+.Image_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#The_Winner_is_DANIEL_CORMIER__ {
+	opacity: 1;
+	position: absolute;
+	left: 82px;
+	top: 237px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 1006px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Dubai;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(228,228,228,1);
+}
+#ufc {
+	opacity: 1;
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161)) blur(8px);
+	fill: rgba(90,113,123,1);
+}
+.ufc {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: -5px;
+	left: 0px;
+	width: 1938px;
+	height: 254.601px;
+}
+#Line_1 {
+	opacity: 1;
+	fill: transparent;
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	top: 359.5px;
+	left: 86.5px;
+	width: 1748px;
+	height: 1px;
+}
+#Developed_by_Shahmir_Usman {
+	opacity: 1;
+	position: absolute;
+	left: 1655px;
+	top: 1044px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 250px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Dubai;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.2px;
+}
+#fightfest {
+	opacity: 1;
+	fill: url(#fightfest_A1_Rectangle_11_pattern);
+}
+.fightfest {
+	position: absolute;
+	overflow: visible;
+	width: 612px;
+	height: 131px;
+	left: 1263px;
+	top: 50px;
+}
+#Lorem_ipsum_dolor_sit_amet__co {
+	opacity: 1;
+	position: absolute;
+	left: 87px;
+	top: 408px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 1749px;
+	height: 464px;
+	text-align: left;
+	font-family: Dubai;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(228,228,228,1);
+}
+#Rectangle_3 {
+	opacity: 0.9;
+	fill: rgba(255,255,255,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 730px;
+	height: 133px;
+	left: 595px;
+	top: 872px;
+}
+#BACK {
+	opacity: 1;
+	position: absolute;
+	left: 899px;
+	top: 897px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	width: 124px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Dubai;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
