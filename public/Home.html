@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="Home.css"/>
+<script id="applicationScript" type="text/javascript" src="Home.js"></script>
+</head>
+<body>
+<div id="Home">
+	<svg class="Rectangle_2">
+		<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
+		</rect>
+	</svg>
+	<svg class="Image_1">
+		<pattern elementId="Image_1_A0_Rectangle_3" id="Image_1_A0_Rectangle_3_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Image_1_A0_Rectangle_3_pattern.png" xlink:href="Image_1_A0_Rectangle_3_pattern.png"></image>
+		</pattern>
+		<rect id="Image_1" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
+		</rect>
+	</svg>
+	<!-- <svg class="Rectangle_1">
+		<rect id="Rectangle_1" rx="66.5" ry="66.5" x="0" y="0" width="730" height="133">
+		</rect>
+	</svg> -->
+	<div id="Welcome_to_FightFest__The_worl">
+		<span>Welcome to FightFest. The world's best UFC fight predictor</span>
+	</div>
+	<div id="Step_1__Select_a_Division">
+		<span>Step 1: Select a Division</span><br>
+		<select id="division" name="division" onchange="populate('division', 'fighter1', 'fighter2')">
+			<option value=""></option>
+			<option value="Heavyweight">Heavyweight</option>
+			<option value="Light Heavyweight">Light Heavyweight</option>
+			<option value="Middleweight">Middleweight</option>
+			<option value="Welterweight">Welterweight</option>
+			<option value="Lightweight">Lightweight</option>
+			<option value="Featherweight">Featherweight</option>
+			<option value="Bantamweight">Bantamweight</option>
+			<option value="Flyweight">Flyweight</option>
+			<option value="Women's Featherweight">Women's Featherweight</option>
+			<option value="Women's Bantamweight">Women's Bantamweight</option>
+			<option value="Women's Flyweight">Women's Flyweight</option>
+			<option value="Women's Strawweight">Women's Strawweight</option>
+		</select>
+	</div>
+	<div id="Step_2__Choose_the_fighters">
+		<span>Step 2: Choose the fighters</span> <br>
+		<select id="fighter1" name="fighter1"></select> 
+		vs
+		<select id="fighter2" name="fighter2"></select>
+	</div>
+	<div id="Step_3__Optional___Select_Loca">
+		<span>Step 3 (Optional): Select Location</span> <br>
+		<select id="location" name="location"></select>
+	</div>
+	<div id="button">
+		<button id="predictbutton">PREDICT</button>
+	</div>
+	<!-- <div id="PREDICT">
+		<span>PREDICT</span>
+	</div> -->
+	<svg class="ufc" viewBox="0 0 1920 236.601">
+		<path id="ufc" d="M 0 0 L 0 100.9668273925781 L 940.85595703125 167.4313049316406 L 1920 236.6005249023438 L 1920 0 L 0 0 Z">
+		</path>
+	</svg>
+	<svg class="Line_1">
+		<path id="Line_1" d="M 0 0 L 1748 0">
+		</path>
+	</svg>
+	<div id="Developed_by_Shahmir_Usman">
+		<span>Copyright &copy; 2019 Shahmir Usman.</span>
+	</div>
+	<svg class="fightfest">
+		<pattern elementId="fightfest_A0_Rectangle_6" id="fightfest_A0_Rectangle_6_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="fightfest_A0_Rectangle_6_pattern.png" xlink:href="fightfest_A0_Rectangle_6_pattern.png"></image>
+		</pattern>
+		<rect id="fightfest" rx="0" ry="0" x="0" y="0" width="612" height="131">
+		</rect>
+	</svg>
+</div>
+</body>
+</html>
