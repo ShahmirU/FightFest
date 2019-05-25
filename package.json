@@ -7,8 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahmirU/FightFest.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahmirU/FightFest/issues"
+  },
+  "homepage": "https://github.com/ShahmirU/FightFest#readme",
   "dependencies": {
     "express": "^4.17.0"
   }
