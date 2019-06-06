@@ -32,3 +32,25 @@ function pairToOption(optionArray, s2, s3){
         s3.options.add(newOption2);
     }
 }
+
+const predict = function(e){
+    let btn = document.querySelector('#predictbutton');
+    btn.addEventListener('click', function(){
+        var x = document.getElementById('fighter1');
+        var y = document.getElementById('fighter2');
+        if(x.value == '' | y.value == ''){
+            alert('Please select two fighters');
+        }
+        else if (x.value == y.value){
+            alert('You cannot choose the same fighter');
+        }
+        else{
+            window.document.location = './Prediction.html' + '?fighters=' +
+            x.value + '|' + y.value;
+        }
+    });
+};
+
+document.addEventListener('DOMContentLoaded', function(){
+    predict();
+});

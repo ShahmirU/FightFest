@@ -9,7 +9,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-<div id="Home">
 	<svg class="Rectangle_2">
 		<rect id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
 		</rect>
@@ -21,10 +20,6 @@
 		<rect id="Image_1" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
 		</rect>
 	</svg>
-	<!-- <svg class="Rectangle_1">
-		<rect id="Rectangle_1" rx="66.5" ry="66.5" x="0" y="0" width="730" height="133">
-		</rect>
-	</svg> -->
 	<div id="Welcome_to_FightFest__The_worl">
 		<span>Welcome to FightFest. The world's best UFC fight predictor</span>
 	</div>
@@ -47,21 +42,22 @@
 		</select>
 	</div>
 	<div id="Step_2__Choose_the_fighters">
-		<span>Step 2: Choose the fighters</span> <br>
-		<select id="fighter1" name="fighter1"></select> 
-		vs
-		<select id="fighter2" name="fighter2"></select>
+		<span>Step 2: Choose the Fighters</span> <br>
+		<div id="Step_2_Selectors">
+			<select id="fighter1" name="fighter1"></select> 
+			<span id="VS">vs</span>
+			<select id="fighter2" name="fighter2"></select>
+		</div>	
 	</div>
 	<div id="Step_3__Optional___Select_Loca">
-		<span>Step 3 (Optional): Select Location</span> <br>
-		<select id="location" name="location"></select>
+		<span>Step 3 (Optional): Input Fight Odds</span> <br>
+		<input id="odds1" name="odds1"></select> 
+		vs
+		<input id="odds2" name="odds2"></select>
 	</div>
-	<div id="button">
-		<button id="predictbutton">PREDICT</button>
-	</div>
-	<!-- <div id="PREDICT">
-		<span>PREDICT</span>
-	</div> -->
+		<div id="button">
+			<button id="predictbutton">PREDICT</button>
+		</div>
 	<svg class="ufc" viewBox="0 0 1920 236.601">
 		<path id="ufc" d="M 0 0 L 0 100.9668273925781 L 940.85595703125 167.4313049316406 L 1920 236.6005249023438 L 1920 0 L 0 0 Z">
 		</path>
@@ -80,6 +76,5 @@
 		<rect id="fightfest" rx="0" ry="0" x="0" y="0" width="612" height="131">
 		</rect>
 	</svg>
-</div>
 </body>
 </html>

@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	background: #1C2E37
 }
 :root {
 	--web-view-ids: Prediction;
@@ -55,7 +56,7 @@ body {
 	left: 0px;
 	top: 0px;
 }
-#The_Winner_is_DANIEL_CORMIER__ {
+#The_Winner_is {
 	opacity: 1;
 	position: absolute;
 	left: 82px;
@@ -73,17 +74,18 @@ body {
 	font-size: 70px;
 	color: rgba(228,228,228,1);
 }
+#winning_fighter{
+	color: rgba(29,241,243,1);
+}
 #ufc {
-	opacity: 1;
+	opacity: 0.5;
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161)) blur(8px);
-	fill: rgba(90,113,123,1);
+	fill: #020405;
+	position: fixed;
 }
 .ufc {
 	transform: matrix(1,0,0,1,0,0);
-	overflow: visible;
-	position: absolute;
-	top: -5px;
-	left: 0px;
+	overflow: hidden;
 	width: 1938px;
 	height: 254.601px;
 }
@@ -108,7 +110,7 @@ body {
 #Developed_by_Shahmir_Usman {
 	opacity: 1;
 	position: absolute;
-	left: 1655px;
+	left: 1600px;
 	top: 1044px;
 	box-sizing: border-box;
 	margin: 0;
@@ -117,9 +119,8 @@ body {
 	width: 250px;
 	white-space: nowrap;
 	text-align: left;
-	font-family: Dubai;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
 	font-style: normal;
-	font-weight: lighter;
 	font-size: 20px;
 	color: rgba(255,255,255,1);
 	letter-spacing: 0.2px;
@@ -136,7 +137,7 @@ body {
 	left: 1263px;
 	top: 50px;
 }
-#Lorem_ipsum_dolor_sit_amet__co {
+#Percentage {
 	opacity: 1;
 	position: absolute;
 	left: 87px;
@@ -172,21 +173,34 @@ body {
 	left: 595px;
 	top: 872px;
 }
-#BACK {
+#button{
 	opacity: 1;
 	position: absolute;
-	left: 899px;
-	top: 897px;
+	left: 795px;
+	top: 900px;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	overflow: visible;
-	width: 124px;
+	overflow: hidden;
 	white-space: nowrap;
-	text-align: left;
-	font-family: Dubai;
+	text-align: center;
+}
+#backbutton{
+	border: 1px solid #50e3f7;
+	background: #1C2E37;
+	padding: 10px 60px;
+	font-size: 20px;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 50px;
-	color: rgba(0,0,0,1);
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	margin: 10px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+#backbutton:hover{
+	color: rgb(0, 0, 0);
+	background: rgba(29,241,243,1);
 }

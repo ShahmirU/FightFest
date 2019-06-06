@@ -6,6 +6,7 @@
 <title>Prediction</title>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="Prediction.css"/>
 <script id="applicationScript" type="text/javascript" src="Prediction.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 <div id="Prediction">
@@ -20,8 +21,8 @@
 		<rect id="Image_1" rx="0" ry="0" x="0" y="0" width="1920" height="1080">
 		</rect>
 	</svg>
-	<div id="The_Winner_is_DANIEL_CORMIER__">
-		<span>The Winner is DANIEL CORMIER! </span>
+	<div id="The_Winner_is">
+		The Winner is <span id="winning_fighter"></span>
 	</div>
 	<svg class="ufc" viewBox="0 0 1920 236.601">
 		<path id="ufc" d="M 0 0 L 0 100.9668273925781 L 940.85595703125 167.4313049316406 L 1920 236.6005249023438 L 1920 0 L 0 0 Z">
@@ -31,6 +32,11 @@
 		<path id="Line_1" d="M 0 0 L 1748 0">
 		</path>
 	</svg>
+	<a href="Home.html">
+		<div id="button">
+			<button id="backbutton">BACK</button>
+		</div>
+	</a>	
 	<div id="Developed_by_Shahmir_Usman">
 		<span>Developed by Shahmir Usman</span>
 	</div>
@@ -41,16 +47,10 @@
 		<rect id="fightfest" rx="0" ry="0" x="0" y="0" width="612" height="131">
 		</rect>
 	</svg>
-	<div id="Lorem_ipsum_dolor_sit_amet__co">
-		<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo massa eu dui accumsan fermentum. Mauris auctor nibh ac metus molestie porta. Vivamus volutpat mattis felis vel bibendum. Suspendisse faucibus, urna vel aliquam ornare, turpis turpis imperdiet elit, non porttitor lectus arcu eget nibh. Sed lacus dui, lobortis ut rutrum sed, condimentum eget tellus. <br/><br/>Cras sagittis tellus sollicitudin urna auctor scelerisque. Mauris et eros in orci efficitur laoreet. Donec rhoncus dui ut ex pulvinar, non convallis tortor tempus. Nam nec ultrices urna, nec scelerisque felis. Pellentesque eget odio sit amet leo auctor ultricies a et ex. Ut vitae tortor et leo cursus vehicula sit amet quis libero. Cras tempor ac ipsum id ultricies. Phasellus eu nunc lacinia, placerat mi id, laoreet velit. Sed quis aliquam velit.<br/><br/>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque massa nunc, rhoncus nec eleifend ac, tempus in massa. Donec lobortis consequat eleifend. Nunc commodo enim felis, ut congue magna scelerisque eget. Curabitur vestibulum orci aliquet, accumsan purus id, fermentum risus. Phasellus accumsan sapien a malesuada tempus. Aenean dictum non nisi quis dictum. Aenean at quam volutpat, vestibulum ex ac, bibendum nisi. Vestibulum viverra convallis nunc ac maximus<br/><br/></span>
-	</div>
-	<svg class="Rectangle_3">
-		<rect id="Rectangle_3" rx="66.5" ry="66.5" x="0" y="0" width="730" height="133">
-		</rect>
-	</svg>
-	<div id="BACK">
-		<span>BACK</span>
-	</div>
+	<div id="Percentage"><img alt="winner" id="winner-img"></div>
+	<!-- <div id="Photo">
+		<img alt="winner" id="winner-img">
+	</div> -->
 </div>
 </body>
 </html>

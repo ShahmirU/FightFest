@@ -26,6 +26,17 @@ body {
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
+@font-face{
+	font-family: "Dubai";
+	src: url('/public/fonts/DubaiW23-Regular.eot') format('embedded-opentype'),
+	url('/public/fonts/DubaiW23-Regular.woff') format('opentype');
+}
+@font-face{
+	font-family: "Dubai";
+	font-weight: bold;
+	src: url('/public/fonts/DubaiW23-Bold.eot') format('embedded-opentype'),
+	url('/public/fonts/DubaiW23-Bold.woff') format('opentype');
+}
 #Rectangle_2 {
 	opacity: 1;
 	fill: rgba(34,56,67,1);
@@ -96,7 +107,7 @@ body {
 #Step_2__Choose_the_fighters {
 	opacity: 1;
 	position: absolute;
-	left: 674px;
+	left: 682px;
 	top: 540px;
 	box-sizing: border-box;
 	margin: 0;
@@ -110,6 +121,50 @@ body {
 	font-weight: bold;
 	font-size: 50px;
 	color: rgba(239,241,243,1);
+}
+#Step_2_Selectors{
+	position: absolute;
+	left: 200px;
+	top: 75px;
+}
+#fighter1{
+	/* width: 45%;
+	height: 60%; */
+	position: absolute;
+	left: -300px;
+	top: 15px;
+	background: #1C2E37;
+	border: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(29,241,243,1);
+	text-align-last: center;
+}
+#fighter2{
+	/* width: 45%;
+	height: 60%; */
+	position: absolute;
+	left: 120px;
+	top: 15px;
+	background: #1C2E37;
+	border: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	font-family: Dubai, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(29,241,243,1);
+	text-align-last: center;
+}
+#VS{
+	position: absolute;
+	left: 50px;
+	top: -10px;
 }
 #Step_3__Optional___Select_Loca {
 	opacity: 1;
@@ -173,7 +228,6 @@ body {
 	text-align: left;
 	font-family: Dubai, Arial, Helvetica, sans-serif;
 	font-style: normal;
-	font-weight: lighter;
 	font-size: 20px;
 	color: rgba(255,255,255,1);
 	letter-spacing: 0.2px;
@@ -220,33 +274,33 @@ body {
 	color: rgba(29,241,243,1);
 	text-align-last: center;
 }
-#fighter1{
-	width: 45%;
-	height: 60%;
-	text-align: left;
+#odds1{
+	width: 40%;
 	background: #1C2E37;
 	border: none;
 	-webkit-appearance: none;
-	cursor: pointer;
+	/* cursor: pointer; */
 	font-family: Dubai, Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
 	color: rgba(29,241,243,1);
+	text-align: center;
 	text-align-last: center;
 }
-#fighter2{
-	width: 45%;
-	height: 60%;
+#odds2{
+	height: 30%;
+	width: 40%;
 	background: #1C2E37;
 	border: none;
 	-webkit-appearance: none;
-	cursor: pointer;
+	/* cursor: pointer; */
 	font-family: Dubai, Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
 	color: rgba(29,241,243,1);
+	text-align: center;
 	text-align-last: center;
 }
 #button{
