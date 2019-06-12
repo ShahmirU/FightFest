@@ -152,8 +152,12 @@ body {
 	font-family: Dubai;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 50px;
 	color: rgba(228,228,228,1);
+}
+#winning_probability{
+	font-size: 60px;
+	color: rgba(29,241,243,1);
 }
 #Rectangle_3 {
 	opacity: 0.9;

@@ -36,17 +36,19 @@ function pairToOption(optionArray, s2, s3){
 const predict = function(e){
     let btn = document.querySelector('#predictbutton');
     btn.addEventListener('click', function(){
-        var x = document.getElementById('fighter1');
-        var y = document.getElementById('fighter2');
-        if(x.value == '' | y.value == ''){
+        var fighter1 = document.getElementById('fighter1');
+        var fighter2 = document.getElementById('fighter2');
+        var odds1 = document.getElementById('odds1');
+        var odds2 = document.getElementById('odds2');
+        if(fighter1.value == '' | fighter2.value == ''){
             alert('Please select two fighters');
         }
-        else if (x.value == y.value){
+        else if (fighter1.value == fighter2.value){
             alert('You cannot choose the same fighter');
         }
         else{
             window.document.location = './Prediction.html' + '?fighters=' +
-            x.value + '|' + y.value;
+            fighter1.value + '|' + fighter2.value + '|odds=' + odds1.value + '|' + odds2.value;
         }
     });
 };
