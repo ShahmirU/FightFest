@@ -9,6 +9,17 @@ var roster = [];
 app.use(express.static(__dirname + '/public'));
 
 var rosterLink = 'https://www.bloodyelbow.com/2013/1/29/3928296/ufc-roster-current-list-fighters';
+// var jonesgoogle = 'https://en.wikipedia.org/wiki/List_of_current_UFC_fighters';
+// request(jonesgoogle, (error, 
+//     resp, html) => {
+//         console.log(resp.statusCode);
+//         if(!error && resp.statusCode == 200){
+//             const $ = cheerio.load(html);
+//             // var f1_sherdog = $('#JolIg').html();
+//             var f1_sherdog = $(".wikitable sortable jquery-tablesorter").html();
+//             console.log(f1_sherdog);
+//         }
+//     });
 
 // ROUTES
 app.get('/', function(request, response){
@@ -57,23 +68,27 @@ app.get('/predict', function(req, response){
         resp, html) => {
             var fighter1 = req.query.fighter1;
             var fighter2 = req.query.fighter2;
+            var odds1 = Math.abs(Number(req.query.odds1));
+            var odds2 = Math.abs(Number(req.query.odds2));
+            console.log(odds1);
+            console.log(odds2);
             if(!error && resp.statusCode == 200){
                 const $ = cheerio.load(html);
                 f1record = $(`td:contains(${fighter1})`).next().next().text().replace(/\([0-9]/g, "").replace("NC)", "").trim().split("–"); 
                 f2record = $(`td:contains(${fighter2})`).next().next().text().replace(/\([0-9]/g, "").replace("NC)", "").trim().split("–"); 
-                console.log(f1record);
-                console.log(f2record);
                 f1wins = Number(f1record[0]);
                 f1losses = Number(f1record[1]);
                 f2wins = Number(f2record[0]);
                 f2losses = Number(f2record[1]);
-                f1score = ((1.5*f1wins) - f1losses) + (0.1*(f1wins+f1losses));
-                f2score = ((1.5*f2wins) - f2losses) + (0.1*(f2wins+f2losses));
+                f1score = odds1 + (50 + (10*f1wins) - 7*f1losses) + (0.33*(f1wins+f1losses));
+                f2score = odds2 + (50 + (10*f2wins) - 7*f2losses) + (0.33*(f2wins+f2losses));
+                console.log(f1score);
+                console.log(f2score);
                 if(f1score > f2score){
-                    response.send([fighter1, (f1score * 100) / (f1score + f2score)]);
+                    response.send([fighter1, ((f1score)/(f1score + f2score))*100]);
                 }
                 else if(f2score > f1score){
-                    response.send([fighter2, (f2score * 100) / (f1score + f2score)]);
+                    response.send([fighter2, ((f2score)/(f1score + f2score))*100]);
                 }
                 else{
                     if(f1wins > f2wins){
